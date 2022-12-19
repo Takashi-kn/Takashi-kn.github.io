@@ -1,0 +1,44 @@
+/*フォント「無心」*/
+@font-face{
+    font-family: mushin;
+    src: url("../styles/Fonts/mushin/mushin.otf") format("opentype");
+}
+
+/*フォント「Noto Sans Japanese（レギュラー）」*/
+@font-face{
+    font-family: notosansjp;
+    src: url("../styles/Fonts/Noto-Sans-Japanese/NotoSansJP-Regular.otf") format("opentype");
+}
+
+html{
+    font-family: mushin;
+    background-color: #00539f;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
