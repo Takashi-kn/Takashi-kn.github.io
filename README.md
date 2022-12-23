@@ -1,1 +1,0 @@
-# Takashi-kn.github.io
